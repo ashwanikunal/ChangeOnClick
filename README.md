@@ -1,16 +1,20 @@
-# React + Vite
+# Changes Text and Bg on click 
+# 🌗 Dark Mode Toggle App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project built using **Vite** and **Tailwind CSS** that demonstrates a basic **dark/light mode toggle** feature.
 
-Currently, two official plugins are available:
+## 🪄 Features
+- Switches between light and dark mode with smooth transitions  
+- Text and background colors change dynamically  
+- Built using React functional components and `useState`  
+- Styled entirely with Tailwind CSS  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 What It Does
+- Initially displays:
+  > **"Hello world! This is Ashwani Kumar"** (black text on white background)  
+- On button click:
+  > **"I am learning React"** (white text on black background)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- ⚛️ **React (Vite)** — Fast and modern frontend framework  
+- 🎨 **Tailwind CSS** — Utility-first CSS for easy styling  
