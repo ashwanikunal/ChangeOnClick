@@ -17,13 +17,13 @@ function App() {
         <button 
         onClick={toggleDarkMode}
         className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${isDark ? "bg-white text-black hover:bg-gray-200" :"bg-black text-white hover:bg-gray-800"}`}>
-          <Toggle></Toggle>
+          Toggle
         </button>
 
       </div>  
         
     </>
-  );
+  )
 }
 
-export default App;
+export default App
