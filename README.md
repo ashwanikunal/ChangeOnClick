@@ -1,3 +1,4 @@
+# Changes Text and Bg on click 
 # 🌗 Dark Mode Toggle App
 
 A simple React project built using **Vite** and **Tailwind CSS** that demonstrates a basic **dark/light mode toggle** feature.
